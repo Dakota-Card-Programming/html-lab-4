@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 4 - Tables</title>
+    <!-- little bit of css for the table-->
+    <style>
+        table, tr, td, th{
+            border: 1px dashed;
+            padding: 1em; 
+        }
+
+        table{
+            width: 80%;
+        }
+    </style>
+</head>
+<body>
+    <!-- the header for the webpage -->
+    <header>
+        <!-- adding navigation -->
+        <nav>
+            <ul>
+                <li><a href="./index.html\">Home</a></li>
+                <li><a href="./table.html">Table</a></li>
+            </ul>
+        </nav>
+        <!-- main heading for the webpage -->
+        <h1>Personal Information</h1>
+    </header>
+    <main>
+        <!-- title of our table-->
+        <h2>Information Table</h2>
+        <!-- this section is just for our table -->
+        <section>
+            <table>
+                <!-- headings of our columns in the table -->
+                <thead>
+                    <!-- making a row in the heading -->
+                    <tr>
+                        <!-- explaining what each column is for -->
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Age</th>
+                        <th>Hobbies</th>
+                    </tr>
+                </thead>
+                <!-- all the content in the actual table element we want to fill out -->
+                <tbody>
+                    <!-- first persons row -->
+                    <tr>
+                        <!-- content inside of the rows -->
+                        <td>Dakota</td>
+                        <td>Card</td>
+                        <td>23</td>
+                        <td>
+                            <!-- using a list for formatting (i don't wanna figure it out with CSS yet xD - i hope this is semantic)-->
+                            <ul>
+                                <li>Drawing</li>
+                                <li>Video games</li>
+                                <li>Video Editing</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <!-- second persons row -->
+                    <tr>
+                        <!-- content inside of the rows -->
+                        <td>Patrick</td>
+                        <td>Fitzpatrick</td>
+                        <td>23</td>
+                        <td>
+                            <!-- using a list for formatting (i don't wanna figure it out with CSS yet xD - i hope this is semantic)-->
+                            <ul>
+                                <li>Video games</li>
+                                <li>Wood Working</li>
+                                <li>Cooking</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <!-- third persons row -->
+                    <tr>
+                        <!-- content inside of the rows -->
+                        <td>Monkey D.</td>
+                        <td>Luffy</td>
+                        <td>19</td>
+                        <!-- using a list for formatting (i don't wanna figure it out with CSS yet xD - i hope this is semantic)-->
+                        <td>
+                            <ul>
+                                <li>Eating</li>
+                                <li>Freedom</li>
+                                <li>Adventuring the sea</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <!-- the bottom part of the website -->
+    <footer>
+        <!-- copyright -->
+        &copy; Dakota Card 2022
+    </footer>
+</body>
+</html>
